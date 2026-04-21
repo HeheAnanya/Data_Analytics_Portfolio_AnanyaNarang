@@ -1,0 +1,90 @@
+.self {
+    /* Set a max-width so it looks like a sidebar on the left */
+    max-width: 280px;
+    margin: 40px 20px;
+    /* Adjust margin to move it away from the edge */
+    display: flex;
+    flex-direction: column;
+    /* Force vertical stacking */
+    gap: 16px;
+    color: #e6edf3;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Profile Picture - Rounded and centered in the column */
+.self-pic img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 1px solid #30363d;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Name and Bio */
+.intro h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.username {
+    font-size: 20px;
+    color: #7d8590;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.intro p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+/* Follow Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #30363d;
+    border-color: #8b949e;
+}
+
+/* Contact Details */
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 15px;
+    border-top: 1px solid #21262d;
+    /* Subtle separator line */
+}
+
+.detail-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #e6edf3;
+    font-size: 14px;
+}
+
+.detail-info img {
+    width: 16px;
+    height: 16px;
+    /* This makes dark icons visible on black backgrounds */
+    filter: brightness(0) invert(1);
+}
+
+.detail-info span:hover {
+    color: #2f81f7;
+    text-decoration: underline;
+}
