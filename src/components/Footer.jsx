@@ -1,14 +1,23 @@
-import React from 'react';
-import GitHubCalendar from 'react-github-calendar';
-import "../css/footer.css"
+import React from "react";
+import {GitHubCalendar} from "react-github-calendar";
+import "../css/github.css"; // optional styling
 
-const GitHubContributions = () => {
+const Footer = () => {
   return (
-    <div className="contributions">
-      <h2>Your GitHub Contributions</h2>
-      <GitHubCalendar username="heheananya" />
+    <div className="github-section">
+      <h3>My Contributions</h3>
+
+      <div className="calendar-wrapper">
+        <GitHubCalendar
+          username="HeheAnanya"
+          blockSize={15}
+          blockMargin={5}
+          fontSize={14}
+          colorScheme="dark"
+        />
+      </div>
     </div>
   );
 };
 
-export default GitHubContributions;
+export default Footer;
