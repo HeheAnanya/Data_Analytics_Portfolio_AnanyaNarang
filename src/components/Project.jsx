@@ -85,7 +85,7 @@ const Project = () => {
         <button onClick={() => setSelectedRepo(null)} className="cancel">
           Cancel
         </button>
-        <a href="#" target="_blank" rel="noreferrer">
+        <a href={selectedRepo.link} target="_blank" rel="noreferrer"> 
           <button className="live">View Live Repository</button>
         </a>
       </div>
@@ -94,7 +94,6 @@ const Project = () => {
   </div>
 )}
       </div>
-      {/* <GitHubContributions /> Render GitHub Contributions component */}
       <Footer />
     </div>
   )

@@ -1,34 +1,38 @@
 [
     {
         "id": 1,
-        "name": "Data-Analysis-Dashboard",
+        "name": "Customer Behaviour Ananlysis",
         "desc": "Interactive dashboard built using Tableau to visualize sales and revenue trends.",
-        "tech": ["Tableau", "Excel"],
-        "main": "Tableau",
-        "img": "https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&w=800&q=80"
+        "tech": ["MySQL", "PowerBI","Python","Pandas","Numpy","Jupyter Notebook"],
+        "main": "PowerBI",
+        "img": "https://drive.google.com/file/d/1D5BJsk8yuLRFRf_Mh_affgQkwoTg1cGv/view?usp=sharing",
+        "link":"https://github.com/HeheAnanya/customer_behaviour_analysis-.git"
     },
     {
         "id": 2,
-        "name": "SQL-Database-Project",
+        "name": "Retail Sector Ananlysis",
         "desc": "Designed and queried a relational database for e-commerce analytics using MySQL.",
-        "tech": ["MySQL", "Excel"],
-        "main": "MySQL",
-        "img": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+        "tech": ["Tableau", "Python","Pandas","Numpy","Google Colab"],
+        "main": "Tableau",
+        "img": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+        "link":"https://github.com/HeheAnanya/SectionD_Team10_RetailAnalysis.git"
     },
     {
         "id": 3,
-        "name": "Python-Data-Cleaning",
+        "name": "Mental Health Analysis",
         "desc": "Used Google Colab and Pandas to clean and preprocess raw datasets for analysis.",
-        "tech": ["Google Colab", "Python"],
-        "main": "Python",
-        "img": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=800&q=80"
+        "tech": ["MySQL", "PowerBI","Python","Pandas","Numpy","Jupyter Notebook"],
+        "main": "Jupyter Notebook",
+        "img": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=800&q=80",
+        "link":"https://github.com/HeheAnanya/Mental_Health_DVA_Project.git"
     },
     {
         "id": 4,
-        "name": "MongoDB-Analytics",
+        "name": "Cafe Sales Analysis",
         "desc": "Built a NoSQL database and performed aggregation queries for business insights.",
-        "tech": ["MongoDB", "Google Sheets"],
-        "main": "MongoDB",
-        "img": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+        "tech": ["Google Sheets", "Python","Pandas","Numpy","Google Colab"],
+        "main": "Google Sheets",
+        "img": "https://raw.githubusercontent.com/HeheAnanya/sectiond_group16_cafe_sales/refs/heads/main/dashboard/dashboard.png",
+        "link":"https://github.com/HeheAnanya/sectiond_group16_cafe_sales.git"
     }
 ]
