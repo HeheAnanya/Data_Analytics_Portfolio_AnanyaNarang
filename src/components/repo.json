@@ -5,7 +5,7 @@
         "desc": "Interactive dashboard built using Tableau to visualize sales and revenue trends.",
         "tech": ["MySQL", "PowerBI","Python","Pandas","Numpy","Jupyter Notebook"],
         "main": "PowerBI",
-        "img": "dva_portfolio/src/assets/customer_dashboard.jpeg",
+        "imgKey": "customer",
         "link":"https://github.com/HeheAnanya/customer_behaviour_analysis-.git"
     },
     {
@@ -14,7 +14,7 @@
         "desc": "Designed and queried a relational database for e-commerce analytics using MySQL.",
         "tech": ["Tableau", "Python","Pandas","Numpy","Google Colab"],
         "main": "Tableau",
-        "img": "dva_portfolio/src/assets/Dashboard1.png",
+        "imgKey": "retail",
         "link":"https://github.com/HeheAnanya/SectionD_Team10_RetailAnalysis.git"
     },
         {
@@ -23,7 +23,7 @@
         "desc": "Built a NoSQL database and performed aggregation queries for business insights.",
         "tech": ["Google Sheets", "Python","Pandas","Numpy","Google Colab"],
         "main": "Google Sheets",
-        "img": "dva_portfolio/src/assets/dashboard.png",
+        "imgKey": "cafe",
         "link":"https://github.com/HeheAnanya/sectiond_group16_cafe_sales.git"
     },
     {
@@ -32,7 +32,7 @@
         "desc": "Used Google Colab and Pandas to clean and preprocess raw datasets for analysis.",
         "tech": ["MySQL", "PowerBI","Python","Pandas","Numpy","Jupyter Notebook"],
         "main": "Jupyter Notebook",
-        "img": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=800&q=80",
+        "imgKey": "mental",
         "link":"https://github.com/HeheAnanya/Mental_Health_DVA_Project.git"
     }
 ]
